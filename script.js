@@ -4,6 +4,7 @@ var faqButton = document.getElementById('addFAQ');
         document.getElementById('addFAQ').style.display="none";      
         document.getElementById('FAQ_Answer').style.display='block';
         document.getElementById('acordian').style.display="none";
+        document.querySelector('.FAQ_WHAT').style.display="none";
     
 })
 
