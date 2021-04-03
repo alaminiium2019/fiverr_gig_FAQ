@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="FAQ_Section">
+        <div class="FAQ_Add_Section" style="display: flex; justify-content:space-between;">
+            <div>
+                <h3 style="font-weight: 400;color: #62646a; font-size: 28px;">Frequentlty Asked Questions</h3>
+            </div>
+            <div>
+                <button id="addFAQ">+Add FAQ</button>
+            </div>
+
+        </div>
+        <br>
+        <hr>
+        <div class="QAA-Section">
+            <h3 style="margin-top: 30px; margin-bottom: 10px;">Add Questions & Answers for your buyers</h3>
+            
+        </div>
+
+
+
+        <!--Acordian-->
+        <!--Some Change-->
+        <div id="acordian">
+            <div>
+                <div style="display: flex; justify-content: space-between; overflow: hidden;" id="acordian_hideQestion">
+                    <div>
+                        <h1 id="acordian_question">Your Questions</h1>
+                    </div>
+                    <div id="iconSHow"><span style="background-color: turquoise;">></span></div>
+                </div>
+                <div style="background-color: teal;" id="acordian-hidesection">
+
+                    <div style="background-color: violet;">
+                        <input id="acordian_question" class="editQuestion" style="margin: 20px; background-color: tomato;"><br>
+                        <input id="acordian_answer" class="editAnswer">
+                        <h1>22/300</h1>
+                    </div>
+                
+                <div style="display: flex; justify-content: space-between;">
+                    <button>Delete</button>
+                    <div>
+                        <button>Cancel</button>
+                        <button>Update</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+           
+
+        </div>
+        
+
+
+        <!--Acordian End-->
+
+        <div id="FAQ_Answer" style="margin-top: 20px;">
+            <input type="text" placeholder="Add a Question: i.e. Do your translate to English as well?" id="question" style="height: 40px; font-size: 18px; padding-left: 10px;">
+            <br>
+            <textarea placeholder="Add an Answer: i.e. Yes, I also translate from English to Hebrew." id="answer" style="height: 120px; font-size: 18px; padding-left: 10px;padding-top: 10px;"></textarea>
+
+            <div style="text-align: right;">
+                <button id="faqAnswerCancel" style="border: 1px solid gray; padding: 10px 20px; border-radius: 5px;">Cancel</button>
+                <button id="addQuestion" style="border: none; padding: 10px 20px;border-radius: 5px; background-color: green;color: white;">Add</button>
+            </div>
+
+        </div>
+
+
+        <br>
+        <hr style="margin-bottom: 20px;">
+
+        <div class="save_cancel-sction" style="display: flex; justify-content: space-between; margin-top: 50px;">
+            <button style="padding: 10px 20px; border-radius: 5px;border: 1px solid gray;">Cancel</button>
+            <button style="padding: 10px 20px; background-color: #00ff55; border: none; border-radius: 5px;">Save</button>
+
+        </div>
+        </div>
+
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
