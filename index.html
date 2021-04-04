@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ</title>
+    <title>Five Gig FAQ section</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -36,34 +36,35 @@
             <!--Acordian-->
             <!--Some Change-->
             <div id="acordian" style="margin-top: 30px; border: 1px solid gray; border-radius: 2px;">
-                <div style="background-color: teal;">
-                    <div style="display: flex; overflow:hidden; background-color: #FFFFFF;" id="acordian_hideQestion">
-                        <div style="width: 5%; margin: 10px; margin-right: 0px;">
+                <div>
+                    <div style="display: flex; overflow:hidden; background-color: white; border-bottom: 1px solid gray;" id="acordian_hideQestion">
+                        <div style="width: 5%; margin: 10px; margin-right: 0px;background-color: white;"">
                             <i class="fas fa-bars"></i>
                         </div>
-                        <div style="width: 80%; margin-top: 10px;">
-                            <h3 id="acordian_question" style="text-align: left;color: #62646A;">Your Questions</h3>
+                        <div style="width: 80%; background-color: white; margin-top: 8px;">
+                            <h3 id="acordian_question" style="text-align: left;color: #62646A; background-color: white;">Your Questions</h3>
                         </div>
                         <div id="iconSHow"
-                            style="background-color: black; width: 10%; height: 20px; text-align: center; margin-right: 10px;margin-top: 10px;">
+                            style="background-color: white; width: 10%; height: 20px; text-align: center; margin-right: 10px;margin-top: 10px;">
                             <i class="fas fa-chevron-down"
-                                style="width: 100%; height: 100%; color: #62646A; font-size: 20px;"></i></div>
+                                style="width: 100%; height: 100%; color: #62646A; font-size: 20px; background-color: white;"></i></div>
                         <!--<span style="background-color: turquoise; margin-right: 40px;">></span>-->
+                        
                     </div>
-                    <div style="background-color: teal;" id="acordian-hidesection">
+                    <div id="acordian-hidesection">
 
                         <div>
                             <input id="acordian_question" class="editQuestion"
-                                style="border: 1px solid #95979D; margin: 20px;width: 90%;height: 25px;padding: 5px;padding-left: 10px;border-radius: 5px;"><br>
+                                style="border: 1px solid #95979D; margin: 20px;width: 90%;height: 25px;padding: 5px;padding-left: 10px;border-radius: 5px;background-color: white;"><br>
                             <input id="acordian_answer" class="editAnswer"
-                                style="border: 1px solid #95979D; margin: 20px;width: 90%;height: 120px;padding: 5px;padding-left: 10px;border-radius: 5px;">
+                                style="border: 1px solid #95979D; margin: 20px;width: 90%;height: 120px;padding: 5px;padding-left: 10px;border-radius: 5px; background-color: white;">
 
                         </div>
 
                         <div style="display: flex; justify-content: space-between; padding-bottom: 20px;">
 
                             <button style="border: none; font-size: 18px;padding-left: 20px;" id="delete"> <i
-                                    class="far fa-times-circle" style="padding-right: 10px;"></i>Delete</button>
+                                    class="far fa-times-circle" style="margin-right: 10px;border-radius: 50%; color: white;background-color: gray; border: none;"></i>Delete</button>
                             <div style="margin-right: 25px;">
                                 <button
                                     style="padding: 10px 20px; margin-right: 10px;border-radius: 5px; font-size: 18px;border: 1px solid gray;">Cancel</button>
@@ -84,14 +85,14 @@
             <div id="FAQ_Answer" style="margin-top: 40px;">
                 <input type="text" placeholder="Add a Question: i.e. Do your translate to English as well?"
                     id="question"
-                    style="height: 40px; border: 1px solid #95979D; border-radius: 5px; font-size: 18px; padding-left: 10px;">
+                    style="background-color: white; height: 40px; border: 1px solid #95979D; border-radius: 5px; font-size: 18px; padding-left: 10px;">
                 <br>
                 <textarea placeholder="Add an Answer: i.e. Yes, I also translate from English to Hebrew." id="answer"
-                    style="height: 140px;border: 1px solid #95979D; border-radius: 5px; font-size: 18px; padding-left: 10px;padding-top: 10px;"></textarea>
+                    style="background-color: white; height: 140px;border: 1px solid #95979D; border-radius: 5px; font-size: 18px; padding-left: 10px;padding-top: 10px;"></textarea>
 
                 <div style="text-align: right;">
                     <button id="faqAnswerCancel"
-                        style="border: 1px solid gray; padding: 10px 20px; border-radius: 5px;">Cancel</button>
+                        style="border: 1px solid gray; padding: 10px 20px; border-radius: 5px; margin-right: 10px;">Cancel</button>
                     <button id="addQuestion"
                         style="border: none; padding: 10px 20px;border-radius: 5px; background-color: #19A463;color: white;font-size: 14px;">Add</button>
                 </div>
@@ -104,7 +105,7 @@
 
             <div class="save_cancel-sction" style="display: flex; justify-content: space-between; margin-top: 50px;">
                 <button
-                    style="padding: 10px 20px; border-radius: 5px;border: 1px solid gray; font-size: 20px;">Cancel</button>
+                    style="padding: 10px 20px; border-radius: 5px;border: 1px solid gray; font-size: 20px;" class="MainCancel">Cancel</button>
                 <button
                     style="padding: 10px 20px; background-color: #19A463; border: none; border-radius: 5px;color: white;font-size: 20px;">Save</button>
 

@@ -55,7 +55,7 @@ var acordianHideShow = document.getElementById('acordian_hideQestion');
 
     var deleteButon = document.getElementById("delete");
     deleteButon.addEventListener('click',function(){
-        document.getElementById('acordian-hidesection').style.display='none';
+        document.getElementById('acordian').style.display='none';
     });
 
     
@@ -63,4 +63,13 @@ var acordianHideShow = document.getElementById('acordian_hideQestion');
     var Hover = document.getElementById('addFAQ');
     Hover.addEventListener('mouseover',function(){
         document.querySelector('.FAQ_WHAT').style.display="block";
+        
     })
+
+    var mouseOut = document.getElementById('addFAQ');
+    Hover.addEventListener('mouseleave',function(){
+        document.querySelector('.FAQ_WHAT').style.display="none";
+        
+    })
+
+

@@ -39,7 +39,6 @@
 
 
 #acordian{
-    background-color: red;
     display: none;
    
 }
@@ -65,4 +64,10 @@
     position: absolute;
     left:-10px;
     transform: rotate(45deg);
+}
+
+.MainCancel:hover{
+    color: rgb(37, 116, 37);
+    font-weight: bold;
+    
 }
